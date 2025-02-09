@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>e2e_login_failed</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>de8cfa8d-728e-4350-8569-ace6ffaae4f1</testCaseGuid>
+</TestCaseEntity>

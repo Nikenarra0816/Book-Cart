@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>e2e_clear-whislist</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>622499c4-d95f-44ba-9e84-7532c67801b2</testCaseGuid>
+</TestCaseEntity>

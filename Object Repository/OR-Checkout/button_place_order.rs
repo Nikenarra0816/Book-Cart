@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_place_order</name>
+   <tag></tag>
+   <elementGuidId>d0b43a7c-c590-4621-b9cd-33ecdad7757e</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[@type='submit']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>button.mdc-button.mdc-button--raised.mat-mdc-raised-button.mat-primary.mat-mdc-button-base.cdk-focused.cdk-mouse-focused > span.mat-mdc-button-touch-target</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>91d2966f-914e-4bf1-807f-a190691c8ed8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>mat-mdc-button-touch-target</value>
+      <webElementGuid>72b05cfe-eb0c-4164-8204-4b9dcd34fcec</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;mat-typography&quot;]/app-root[1]/div[@class=&quot;container&quot;]/app-checkout[@class=&quot;ng-star-inserted&quot;]/mat-card[@class=&quot;mat-mdc-card mdc-card my-4 ng-star-inserted&quot;]/mat-card-content[@class=&quot;mat-mdc-card-content p-2&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-md-6&quot;]/mat-card-content[@class=&quot;mat-mdc-card-content&quot;]/form[@class=&quot;ng-pristine ng-invalid ng-touched&quot;]/mat-card-actions[@class=&quot;mat-mdc-card-actions mdc-card__actions p-0 mat-mdc-card-actions-align-end&quot;]/button[@class=&quot;mdc-button mdc-button--raised mat-mdc-raised-button mat-primary mat-mdc-button-base cdk-focused cdk-mouse-focused&quot;]/span[@class=&quot;mat-mdc-button-touch-target&quot;]</value>
+      <webElementGuid>982a00d0-6f3f-41de-b9dc-c71d1d2d9e68</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//mat-card-actions/button/span[4]</value>
+      <webElementGuid>5e2acd97-2816-4052-9c33-dd62d73d6433</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

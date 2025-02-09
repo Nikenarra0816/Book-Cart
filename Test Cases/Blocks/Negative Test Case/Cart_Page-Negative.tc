@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Cart_Page-Negative</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>43f6f647-fe5d-48cc-a348-bbd18cdd7890</testCaseGuid>
+</TestCaseEntity>

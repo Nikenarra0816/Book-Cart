@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_checkout</name>
+   <tag></tag>
+   <elementGuidId>25a16522-56e2-432b-9b01-cb647acab08a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[@class='my-2 mdc-button mdc-button--raised mat-mdc-raised-button mat-warn mat-mdc-button-base']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>button.my-2.mdc-button.mdc-button--raised.mat-mdc-raised-button.mat-warn.mat-mdc-button-base.cdk-focused.cdk-mouse-focused > span.mat-mdc-button-touch-target</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>6de6cf44-53d3-4121-9324-91c31ac07b77</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>mat-mdc-button-touch-target</value>
+      <webElementGuid>50cfe7fb-d026-4ae9-ae5b-273e7b770df5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;mat-typography&quot;]/app-root[1]/div[@class=&quot;container&quot;]/app-shoppingcart[@class=&quot;ng-star-inserted&quot;]/mat-card[@class=&quot;mat-mdc-card mdc-card my-4 ng-star-inserted&quot;]/mat-card-content[@class=&quot;mat-mdc-card-content ng-star-inserted&quot;]/td[@class=&quot;mat-mdc-cell mdc-data-table__cell cdk-cell cdk-column-action mat-column-action&quot;]/button[@class=&quot;my-2 mdc-button mdc-button--raised mat-mdc-raised-button mat-warn mat-mdc-button-base cdk-focused cdk-mouse-focused&quot;]/span[@class=&quot;mat-mdc-button-touch-target&quot;]</value>
+      <webElementGuid>b29aeea9-0990-41f4-86ac-0d01b8bd1777</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//mat-card-content[2]/td[6]/button/span[4]</value>
+      <webElementGuid>3ea9cf0f-8ae4-4f7c-a1e6-67ad7578dd57</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

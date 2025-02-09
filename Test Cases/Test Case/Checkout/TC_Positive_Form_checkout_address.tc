@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_Positive_Form_checkout_address</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>f54c14cc-ea9c-4893-9061-f901cafdee98</testCaseGuid>
+</TestCaseEntity>

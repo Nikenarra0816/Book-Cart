@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_Negative_From_checkout_address</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>f9c5cd1e-d7b8-4302-a590-4dca40537ef8</testCaseGuid>
+</TestCaseEntity>

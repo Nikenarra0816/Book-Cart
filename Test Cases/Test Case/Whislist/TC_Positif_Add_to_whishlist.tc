@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_Positif_Add_to_whishlist</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>9be35aaf-cc50-49c7-acc7-52a990efa857</testCaseGuid>
+</TestCaseEntity>

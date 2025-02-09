@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_Negatif_Clear_form_cart</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>ccf41821-9d44-4f71-b147-664bd5651ba0</testCaseGuid>
+</TestCaseEntity>

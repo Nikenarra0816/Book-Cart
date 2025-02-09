@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_Negatif_Clear_from_whistlist</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>3af6e090-4905-4386-ae23-d1dcffa6896b</testCaseGuid>
+</TestCaseEntity>

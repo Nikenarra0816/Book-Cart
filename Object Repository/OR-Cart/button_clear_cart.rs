@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_clear_cart</name>
+   <tag></tag>
+   <elementGuidId>166fafcc-e533-4129-aac0-9c281dba0300</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[@class='mat-elevation-z4 mdc-button mdc-button--raised mat-mdc-raised-button mat-unthemed mat-mdc-button-base']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>button.mat-elevation-z4.mdc-button.mdc-button--raised.mat-mdc-raised-button.mat-unthemed.mat-mdc-button-base.cdk-focused.cdk-mouse-focused > span.mat-mdc-button-touch-target</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>9777da32-b35e-4287-8e93-f764388c76d7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>mat-mdc-button-touch-target</value>
+      <webElementGuid>58a0c215-5184-4c79-acba-55e21c683f9c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;mat-typography&quot;]/app-root[1]/div[@class=&quot;container&quot;]/app-shoppingcart[@class=&quot;ng-star-inserted&quot;]/mat-card[@class=&quot;mat-mdc-card mdc-card my-4 ng-star-inserted&quot;]/mat-card-header[@class=&quot;mat-mdc-card-header mat-elevation-z2 custom-card-header justify-content-between&quot;]/div[@class=&quot;ng-star-inserted&quot;]/button[@class=&quot;mat-elevation-z4 mdc-button mdc-button--raised mat-mdc-raised-button mat-unthemed mat-mdc-button-base cdk-focused cdk-mouse-focused&quot;]/span[@class=&quot;mat-mdc-button-touch-target&quot;]</value>
+      <webElementGuid>1ea289ca-b7fa-49c0-87e4-f7b7f5119a6f</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/button/span[4]</value>
+      <webElementGuid>01408357-7143-4a24-933c-4b300ea4ccf6</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
