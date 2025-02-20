@@ -22,15 +22,15 @@ WebUI.waitForElementVisible(findTestObject('OR-Authentication/OR-Login/title_Log
 WebUI.click(findTestObject('OR-Authentication/OR-Login/title_Login'))
 
 //Script untuk failed login
-String message = WebUI.getAttribute(findTestObject('OR-Authentication/OR-Login/input_username'), '')
+String message = WebUI.getAttribute(findTestObject('OR-Authentication/OR-Login/input_username'), GlobalVariable.Username)
 
 if (message == null) {
-    println("Attribute value is null. Please check object identification and attribute existence.")
+    println('Attribute value is null. Please check object identification and attribute existence.')
 } else {
-    WebUI.verifyEqual(message, 'Username is required') 
+    WebUI.verifyEqual(message, 'Username is required')
 }
 
-WebUI.setEncryptedText(findTestObject('OR-Authentication/OR-Login/input_password'), 'q9TXOO5MkLgwXSz7OL506Q==')
+WebUI.setEncryptedText(findTestObject('OR-Authentication/OR-Login/input_password'), GlobalVariable.PasswordFailed)
 
 WebUI.waitForElementClickable(findTestObject('OR-Authentication/OR-Login/button_login'), 10, FailureHandling.OPTIONAL)
 

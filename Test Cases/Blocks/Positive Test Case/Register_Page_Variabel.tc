@@ -44,21 +44,21 @@
       <name>gender</name>
    </variable>
    <variable>
-      <defaultValue>'handi'</defaultValue>
+      <defaultValue>'Gania'</defaultValue>
       <description></description>
       <id>36523ab8-53f9-4549-abf6-a9467bc5c5d9</id>
       <masked>false</masked>
       <name>first_name</name>
    </variable>
    <variable>
-      <defaultValue>'yuan'</defaultValue>
+      <defaultValue>'Ayu'</defaultValue>
       <description></description>
       <id>8ddc201d-fe7d-45db-8ac4-55f4ea744294</id>
       <masked>false</masked>
       <name>last_name</name>
    </variable>
    <variable>
-      <defaultValue>'handiyuan'</defaultValue>
+      <defaultValue>'ganiaayu'</defaultValue>
       <description></description>
       <id>49f62170-848a-448d-828d-27f26077e34e</id>
       <masked>false</masked>

@@ -19,7 +19,7 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('Blocks/Reusable Test Case/Open_Browser'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('Blocks/Reusable Test Case/Navigate_URL_Register'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Blocks/Reusable Test Case/Navigate_URL_Register-Global'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('Blocks/Negative Test Case/Register_Page-Negative'), [:], FailureHandling.STOP_ON_FAILURE)
 

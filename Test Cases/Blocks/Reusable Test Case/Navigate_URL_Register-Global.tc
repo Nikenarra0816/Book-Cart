@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Login_Page-Negative</name>
+   <name>Navigate_URL_Register-Global</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
-   <testCaseGuid>98580958-5c15-4cc2-b622-376df5973d00</testCaseGuid>
+   <testCaseGuid>a44bf470-567d-4834-9d50-b274c562026a</testCaseGuid>
 </TestCaseEntity>

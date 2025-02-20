@@ -19,10 +19,10 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('Blocks/Reusable Test Case/Open_Browser'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('Blocks/Reusable Test Case/Navigate_URL_Register'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Blocks/Reusable Test Case/Navigate_URL_Register-Global'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('Blocks/Positive Test Case/Register_Page_Variabel'), [('gender') : 'Female', ('first_name') : 'handi'
-        , ('last_name') : 'yuan', ('username') : 'handiyuan', ('password') : 'q9TXOO5MkLgwXSz7OL506Q=='], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Blocks/Positive Test Case/Register_Page_Variabel'), [('gender') : 'Female', ('first_name') : 'Gania'
+        , ('last_name') : 'Ayu', ('username') : 'ganiaayu', ('password') : 'q9TXOO5MkLgwXSz7OL506Q=='], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('Blocks/Reusable Test Case/Close_Browser'), [:], FailureHandling.STOP_ON_FAILURE)
 

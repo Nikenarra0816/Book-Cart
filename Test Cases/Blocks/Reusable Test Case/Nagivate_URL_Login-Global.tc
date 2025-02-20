@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Nagivate_URL_Login</name>
+   <name>Nagivate_URL_Login-Global</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
