@@ -23,5 +23,5 @@ WebUI.callTestCase(findTestCase('Blocks/Reusable Test Case/Nagivate_URL_Login'),
 
 WebUI.callTestCase(findTestCase('Blocks/Positive Test Case/Login_Page_Variabel'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('Blocks/Positive Test Case/Cart_Page'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Blocks/Positive Test Case/BooksDetails_Page'), [:], FailureHandling.STOP_ON_FAILURE)
 

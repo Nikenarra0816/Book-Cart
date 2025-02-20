@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Register_Page</name>
+   <name>e2e_book-details</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
-   <testCaseGuid>4d986e57-4174-439d-a5e0-b81706031981</testCaseGuid>
+   <testCaseGuid>c1232799-3e81-44b7-8401-b367be907333</testCaseGuid>
 </TestCaseEntity>

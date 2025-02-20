@@ -21,7 +21,7 @@ WebUI.callTestCase(findTestCase('Blocks/Reusable Test Case/Open_Browser'), [:], 
 
 WebUI.callTestCase(findTestCase('Blocks/Reusable Test Case/Nagivate_URL_Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('Blocks/Positive Test Case/Login_Page'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Blocks/Positive Test Case/Login_Page_Variabel'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('Blocks/Reusable Test Case/Close_Browser'), [:], FailureHandling.STOP_ON_FAILURE)
 

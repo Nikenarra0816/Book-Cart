@@ -17,11 +17,23 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('Blocks/Reusable Test Case/Open_Browser'), [:], FailureHandling.STOP_ON_FAILURE)
+// Adjust Quantity Shooping Cart 
 
-WebUI.callTestCase(findTestCase('Blocks/Reusable Test Case/Nagivate_URL_Login'), [:], FailureHandling.STOP_ON_FAILURE)
+String adjust_quantity = 'increase' 
 
-WebUI.callTestCase(findTestCase('Blocks/Positive Test Case/Login_Page_Variabel'), [:], FailureHandling.STOP_ON_FAILURE)
+switch (adjust_quantity) {
+	case 'increase':
+		WebUI.click(findTestObject('OR- ShoppingCart/ButtonPlus'))
+		WebUI.delay(1)
+	break 
+	case 'decrease':
+	WebUI.click(findTestObject('OR- ShoppingCart/ButtonMinus'))
+	WebUI.delay(1)
+	break
+	default:
+	KeywordUtil.logInfo("Invalid action, no quantity adjustment performed.")
+}
 
-WebUI.callTestCase(findTestCase('Blocks/Positive Test Case/Cart_Page'), [:], FailureHandling.STOP_ON_FAILURE)
+
+
 

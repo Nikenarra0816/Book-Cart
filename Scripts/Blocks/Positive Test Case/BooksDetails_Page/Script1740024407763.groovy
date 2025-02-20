@@ -16,27 +16,24 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import com.kms.katalon.core.util.KeywordUtil
 
-WebUI.setText(findTestObject('OR-Authentication/OR-Register/input_first name'), 'ulala')
+WebUI.click(findTestObject('OR-Cart/ImgBook'))
 
-WebUI.setText(findTestObject('OR-Authentication/OR-Register/input_last name'), 'lalili')
+String action = 'add_to_wishlist'
 
-WebUI.setText(findTestObject('OR-Authentication/OR-Register/input_username'), 'ulalila')
+switch (action) {
+	case 'add_to_cart':
+		WebUI.click(findTestObject('OR-BookDetails/btn-addcart'))
+		//WebUI.verifyElementPresent(findTestObject('OR-Cart/icon-cart'), 5)
+		WebUI.delay(1) 
+	break
+	case 'add_to_wishlist':
+		WebUI.click(findTestObject('OR-BookDetails/btn-addwishlist')) 
+		//WebUI.verifyElementPresent(findTestObject('OR-Whislist/icon-wishlist'), 5)
+		WebUI.delay(1) 
+	default:
+		KeywordUtil.logInfo("Invalid action, no test executed.")
+}
 
-WebUI.setEncryptedText(findTestObject('OR-Authentication/OR-Register/input_password'), 'q9TXOO5MkLgwXSz7OL506Q==')
-
-WebUI.setEncryptedText(findTestObject('OR-Authentication/OR-Register/input_confirm_password'), 'q9TXOO5MkLgwXSz7OL506Q==')
-
-WebUI.click(findTestObject('OR-Authentication/OR-Register/input_gender_male'), FailureHandling.CONTINUE_ON_FAILURE)
-
-// Menunggu agar tombol Register (span) dapat diklik
-WebUI.waitForElementClickable(findTestObject('OR-Authentication/OR-Register/button_register'), 10)
-
-WebUI.click(findTestObject('OR-Authentication/OR-Register/button_register'))
-
-// Tunggu halaman login muncul
-WebUI.waitForElementVisible(findTestObject('OR-Authentication/OR-Login/title_Login'), 10)
-
-// Verifikasi bahwa halaman login terlihat
-WebUI.verifyElementVisible(findTestObject('OR-Authentication/OR-Login/title_Login'), FailureHandling.OPTIONAL)
 

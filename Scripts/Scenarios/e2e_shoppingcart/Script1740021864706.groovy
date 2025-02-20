@@ -17,21 +17,13 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.waitForElementVisible(findTestObject('OR-Authentication/OR-Login/title_Login'), 10)
+WebUI.callTestCase(findTestCase('Blocks/Reusable Test Case/Open_Browser'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyElementVisible(findTestObject('OR-Authentication/OR-Login/title_Login'), FailureHandling.OPTIONAL)
+WebUI.callTestCase(findTestCase('Blocks/Reusable Test Case/Nagivate_URL_Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('OR-Authentication/OR-Login/title_Login'))
+WebUI.callTestCase(findTestCase('Blocks/Positive Test Case/Login_Page_Variabel'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setText(findTestObject('OR-Authentication/OR-Login/input_username'), 'niken')
+WebUI.callTestCase(findTestCase('Blocks/Positive Test Case/Cart_Page'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setEncryptedText(findTestObject('OR-Authentication/OR-Login/input_password'), 'q9TXOO5MkLgwXSz7OL506Q==')
-
-WebUI.waitForElementClickable(findTestObject('OR-Authentication/OR-Login/button_login'), 10)
-
-WebUI.click(findTestObject('OR-Authentication/OR-Login/button_login'))
-
-WebUI.waitForElementVisible(findTestObject('OR-Authentication/OR-Login/span_all_categories'), 20)
-
-WebUI.verifyElementVisible(findTestObject('OR-Authentication/OR-Login/span_all_categories'), FailureHandling.OPTIONAL)
+WebUI.callTestCase(findTestCase('Blocks/Positive Test Case/ShoppingCart_Page'), [:], FailureHandling.STOP_ON_FAILURE)
 

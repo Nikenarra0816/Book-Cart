@@ -17,21 +17,21 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.waitForElementClickable(findTestObject('OR-Checkout/button_checkout'), 0, FailureHandling.OPTIONAL)
+WebUI.waitForElementVisible(findTestObject('OR-Authentication/OR-Login/title_Login'), 10)
 
-WebUI.click(findTestObject('OR-Checkout/button_checkout'))
+WebUI.verifyElementVisible(findTestObject('OR-Authentication/OR-Login/title_Login'), FailureHandling.OPTIONAL)
 
-WebUI.waitForElementVisible(findTestObject('OR-Checkout/title_Checkout'), 0, FailureHandling.OPTIONAL)
+WebUI.click(findTestObject('OR-Authentication/OR-Login/title_Login'))
 
-WebUI.setText(findTestObject('OR-Checkout/input_name'), 'lalak')
+WebUI.setText(findTestObject('OR-Authentication/OR-Login/input_username'), username)
 
-WebUI.setText(findTestObject('OR-Checkout/input_address1'), 'malang 1')
+WebUI.setEncryptedText(findTestObject('OR-Authentication/OR-Login/input_password'), password)
 
-WebUI.setText(findTestObject('OR-Checkout/input_address2'), 'malang 2')
+WebUI.waitForElementClickable(findTestObject('OR-Authentication/OR-Login/button_login'), 10)
 
-WebUI.setText(findTestObject('OR-Checkout/input_pincode'), '434334')
+WebUI.click(findTestObject('OR-Authentication/OR-Login/button_login'))
 
-WebUI.setText(findTestObject('OR-Checkout/input_state'), '434334')
+WebUI.waitForElementVisible(findTestObject('OR-Authentication/OR-Login/span_all_categories'), 20)
 
-WebUI.click(findTestObject('OR-Checkout/button_place_order'))
+WebUI.verifyElementVisible(findTestObject('OR-Authentication/OR-Login/span_all_categories'), FailureHandling.OPTIONAL)
 

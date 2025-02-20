@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Login_Page</name>
+   <name>ShoppingCart_Page</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
-   <testCaseGuid>836037ef-d891-4fde-8088-0a07accdace1</testCaseGuid>
+   <testCaseGuid>ada0be90-f8bf-498a-9caf-a154b83393c2</testCaseGuid>
 </TestCaseEntity>

@@ -17,21 +17,32 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
+WebUI.setText(findTestObject('OR-Authentication/OR-Register/input_first name'), first_name)
 
-WebUI.navigateToUrl('https://bookcart.azurewebsites.net/register')
+WebUI.setText(findTestObject('OR-Authentication/OR-Register/input_last name'), last_name)
 
-WebUI.setText(findTestObject('OR-Authentication/OR-Register/input_first name'), 'cantik')
+WebUI.setText(findTestObject('OR-Authentication/OR-Register/input_username'), username)
 
-WebUI.setText(findTestObject('OR-Authentication/OR-Register/input_last name'), 'sekali')
+WebUI.setEncryptedText(findTestObject('OR-Authentication/OR-Register/input_password'), password)
 
-WebUI.setText(findTestObject('OR-Authentication/OR-Register/input_username'), 'cantiktest')
+WebUI.setEncryptedText(findTestObject('OR-Authentication/OR-Register/input_confirm_password'), password)
 
-WebUI.setEncryptedText(findTestObject('OR-Authentication/OR-Register/input_password'), 'q9TXOO5MkLgwXSz7OL506Q==')
+WebUI.click(findTestObject('OR-Authentication/OR-Register/input_gender_male'))
 
-WebUI.setEncryptedText(findTestObject('OR-Authentication/OR-Register/input_confirm_password'), 'q9TXOO5MkLgwXSz7OL506Q==')
+// Input Gender
+select_radio = ''
 
-WebUI.click(findTestObject('OR-Authentication/OR-Register/input_gender_male'), FailureHandling.CONTINUE_ON_FAILURE)
+switch (select_radio) {
+    case select_radio = 'Male':
+        WebUI.click(findTestObject('OR-Authentication/OR-Register/input_gender_male'))
+
+        break
+    case select_radio = 'Female':
+        WebUI.click(findTestObject('OR-Authentication/OR-Register/input_gender_female'))
+
+        break
+    default:
+        WebUI.click(findTestObject('OR-Authentication/OR-Register/input_gender_female'))}
 
 // Menunggu agar tombol Register (span) dapat diklik
 WebUI.waitForElementClickable(findTestObject('OR-Authentication/OR-Register/button_register'), 10)

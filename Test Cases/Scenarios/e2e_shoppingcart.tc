@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Checkout_Page</name>
+   <name>e2e_shoppingcart</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
-   <testCaseGuid>d1213bc3-70c6-49e9-87fc-8407bb385793</testCaseGuid>
+   <testCaseGuid>1c8307af-560f-4752-be52-e9f8d2375d44</testCaseGuid>
 </TestCaseEntity>

@@ -21,7 +21,8 @@ WebUI.callTestCase(findTestCase('Blocks/Reusable Test Case/Open_Browser'), [:], 
 
 WebUI.callTestCase(findTestCase('Blocks/Reusable Test Case/Navigate_URL_Register'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('Blocks/Positive Test Case/Register_Page'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Blocks/Positive Test Case/Register_Page_Variabel'), [('gender') : 'Female', ('first_name') : 'handi'
+        , ('last_name') : 'yuan', ('username') : 'handiyuan', ('password') : 'q9TXOO5MkLgwXSz7OL506Q=='], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('Blocks/Reusable Test Case/Close_Browser'), [:], FailureHandling.STOP_ON_FAILURE)
 

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Login_Page_Variabel</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>836037ef-d891-4fde-8088-0a07accdace1</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>f0ffee90-24a2-4594-9031-a028fe313a66</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>89244d6a-7f06-4fb1-9224-ea71dd564822</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'niken'</defaultValue>
+      <description></description>
+      <id>f0ffee90-24a2-4594-9031-a028fe313a66</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>'q9TXOO5MkLgwXSz7OL506Q=='</defaultValue>
+      <description></description>
+      <id>89244d6a-7f06-4fb1-9224-ea71dd564822</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+</TestCaseEntity>
