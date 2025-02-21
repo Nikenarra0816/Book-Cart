@@ -17,7 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('Blocks/Reusable Test Case/Open_Browser'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Blocks/Reusable Test Case/Open_Browser'), [:], FailureHandling.STOP_ON_FAILURE) 
 
 WebUI.callTestCase(findTestCase('Blocks/Reusable Test Case/Navigate_URL_Register-Global'), [:], FailureHandling.STOP_ON_FAILURE)
 
