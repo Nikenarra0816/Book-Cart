@@ -6,4 +6,69 @@
    <comment></comment>
    <recordOption>OTHER</recordOption>
    <testCaseGuid>59abe8d8-47ec-4141-add9-b5da7db89183</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>49f30957-0070-49a7-b101-9e9266a7a75a</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>9650a4a4-59ec-48e8-a9d0-c57bccc553f5</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>6db29980-5b9a-4d7c-9e81-ecb0b785b2b9</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>be53413a-5762-486d-af38-4b1d323247e0</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>840034aa-a342-4724-8be8-3b1205b0b632</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'niken uhuy'</defaultValue>
+      <description></description>
+      <id>49f30957-0070-49a7-b101-9e9266a7a75a</id>
+      <masked>false</masked>
+      <name>name</name>
+   </variable>
+   <variable>
+      <defaultValue>'uhuy 1'</defaultValue>
+      <description></description>
+      <id>9650a4a4-59ec-48e8-a9d0-c57bccc553f5</id>
+      <masked>false</masked>
+      <name>address1</name>
+   </variable>
+   <variable>
+      <defaultValue>'uhuy 2'</defaultValue>
+      <description></description>
+      <id>6db29980-5b9a-4d7c-9e81-ecb0b785b2b9</id>
+      <masked>false</masked>
+      <name>address2</name>
+   </variable>
+   <variable>
+      <defaultValue>'21313S'</defaultValue>
+      <description></description>
+      <id>be53413a-5762-486d-af38-4b1d323247e0</id>
+      <masked>false</masked>
+      <name>pincode</name>
+   </variable>
+   <variable>
+      <defaultValue>'8888'</defaultValue>
+      <description></description>
+      <id>840034aa-a342-4724-8be8-3b1205b0b632</id>
+      <masked>false</masked>
+      <name>state</name>
+   </variable>
 </TestCaseEntity>

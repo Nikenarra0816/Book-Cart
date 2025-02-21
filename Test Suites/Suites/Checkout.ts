@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>Checkout</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>3</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>true</rerunImmediately>
+   <testSuiteGuid>c9ad5b1c-774e-452f-b096-1d468fb93eae</testSuiteGuid>
+   <testCaseLink>
+      <guid>19edefc0-0415-4260-8da8-057360f1825a</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Scenarios/e2e_checkout-success</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>2a4d9b7a-dae0-4916-bc1e-1faa12ceeec9</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/Test Data/checkoutData</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>2a4d9b7a-dae0-4916-bc1e-1faa12ceeec9</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>name</value>
+         <variableId>49f30957-0070-49a7-b101-9e9266a7a75a</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>2a4d9b7a-dae0-4916-bc1e-1faa12ceeec9</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>address1</value>
+         <variableId>9650a4a4-59ec-48e8-a9d0-c57bccc553f5</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>2a4d9b7a-dae0-4916-bc1e-1faa12ceeec9</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>address2</value>
+         <variableId>6db29980-5b9a-4d7c-9e81-ecb0b785b2b9</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>2a4d9b7a-dae0-4916-bc1e-1faa12ceeec9</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>pincode</value>
+         <variableId>be53413a-5762-486d-af38-4b1d323247e0</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>2a4d9b7a-dae0-4916-bc1e-1faa12ceeec9</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>state</value>
+         <variableId>840034aa-a342-4724-8be8-3b1205b0b632</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

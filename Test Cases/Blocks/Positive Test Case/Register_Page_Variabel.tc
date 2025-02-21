@@ -10,12 +10,6 @@
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>08c01c08-bcc3-4771-aeae-de229807c9f7</variableId>
-   </variableLinks>
-   <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
       <variableId>36523ab8-53f9-4549-abf6-a9467bc5c5d9</variableId>
    </variableLinks>
    <variableLinks>
@@ -36,29 +30,28 @@
       <value></value>
       <variableId>42246a5d-06ae-4160-bfb9-9a8cdc480c82</variableId>
    </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>92817c87-d0ad-450d-9994-c15e5c9a1af4</variableId>
+   </variableLinks>
    <variable>
-      <defaultValue>'Female'</defaultValue>
-      <description></description>
-      <id>08c01c08-bcc3-4771-aeae-de229807c9f7</id>
-      <masked>false</masked>
-      <name>gender</name>
-   </variable>
-   <variable>
-      <defaultValue>'Gania'</defaultValue>
+      <defaultValue>'Cila'</defaultValue>
       <description></description>
       <id>36523ab8-53f9-4549-abf6-a9467bc5c5d9</id>
       <masked>false</masked>
       <name>first_name</name>
    </variable>
    <variable>
-      <defaultValue>'Ayu'</defaultValue>
+      <defaultValue>'Lala'</defaultValue>
       <description></description>
       <id>8ddc201d-fe7d-45db-8ac4-55f4ea744294</id>
       <masked>false</masked>
       <name>last_name</name>
    </variable>
    <variable>
-      <defaultValue>'ganiaayu'</defaultValue>
+      <defaultValue>'Cilala'</defaultValue>
       <description></description>
       <id>49f62170-848a-448d-828d-27f26077e34e</id>
       <masked>false</masked>
@@ -70,5 +63,12 @@
       <id>42246a5d-06ae-4160-bfb9-9a8cdc480c82</id>
       <masked>false</masked>
       <name>password</name>
+   </variable>
+   <variable>
+      <defaultValue>'Female'</defaultValue>
+      <description></description>
+      <id>92817c87-d0ad-450d-9994-c15e5c9a1af4</id>
+      <masked>false</masked>
+      <name>gender</name>
    </variable>
 </TestCaseEntity>

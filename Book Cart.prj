@@ -6,9 +6,9 @@
    <UUID>da01cd01-8609-44d8-a744-2baf9180b086</UUID>
    <createdEdition>FREE</createdEdition>
    <createdVersion>10.1.0</createdVersion>
-   <freeLicense>true</freeLicense>
+   <freeLicense>false</freeLicense>
    <migratedVersion>5.9.0</migratedVersion>
-   <modifiedEdition>FREE</modifiedEdition>
+   <modifiedEdition>ENTERPRISE</modifiedEdition>
    <modifiedVersion>10.1.0</modifiedVersion>
    <pageLoadTimeout>0</pageLoadTimeout>
    <projectFileLocation>C:\Users\niken\Katalon Studio\Book Cart\Book Cart.prj</projectFileLocation>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>Authentication</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>1</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>false</rerunImmediately>
+   <testSuiteGuid>69ef6af8-1d6e-4a4c-b531-ed1006ac68d8</testSuiteGuid>
+   <testCaseLink>
+      <guid>48aa9e24-ca68-49a2-aec4-d6ded834b246</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Scenarios/e2e_register_success</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>947c5388-72b7-41bc-aa54-c759868fd0a7</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/Test Data/registerData</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>947c5388-72b7-41bc-aa54-c759868fd0a7</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>first_name</value>
+         <variableId>36523ab8-53f9-4549-abf6-a9467bc5c5d9</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>947c5388-72b7-41bc-aa54-c759868fd0a7</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>last_name</value>
+         <variableId>8ddc201d-fe7d-45db-8ac4-55f4ea744294</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>947c5388-72b7-41bc-aa54-c759868fd0a7</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>username</value>
+         <variableId>49f62170-848a-448d-828d-27f26077e34e</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>947c5388-72b7-41bc-aa54-c759868fd0a7</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>password</value>
+         <variableId>42246a5d-06ae-4160-bfb9-9a8cdc480c82</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>947c5388-72b7-41bc-aa54-c759868fd0a7</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>gender</value>
+         <variableId>92817c87-d0ad-450d-9994-c15e5c9a1af4</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>6b81ccbc-d407-4e83-81fd-13936c332743</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Scenarios/e2e_login_success</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>c7b4090a-85f4-4b14-8d38-f2ee170e1f39</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Blocks/Reusable Test Case/Close_Browser</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+</TestSuiteEntity>

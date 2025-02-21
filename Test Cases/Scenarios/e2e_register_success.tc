@@ -6,4 +6,57 @@
    <comment></comment>
    <recordOption>OTHER</recordOption>
    <testCaseGuid>4f2737bf-f2de-4bd5-a15c-002e425fe5ef</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>c34abcc7-6a0c-40ce-8906-7a1c2495bbf5</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>f2a84b46-b860-4efb-93e9-021d68b50055</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>624e0f7e-dbd7-4235-91b1-cfadb5044c79</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Cila'</defaultValue>
+      <description></description>
+      <id>36523ab8-53f9-4549-abf6-a9467bc5c5d9</id>
+      <masked>false</masked>
+      <name>first_name</name>
+   </variable>
+   <variable>
+      <defaultValue>'Lala'</defaultValue>
+      <description></description>
+      <id>8ddc201d-fe7d-45db-8ac4-55f4ea744294</id>
+      <masked>false</masked>
+      <name>last_name</name>
+   </variable>
+   <variable>
+      <defaultValue>'Cilala'</defaultValue>
+      <description></description>
+      <id>49f62170-848a-448d-828d-27f26077e34e</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>'q9TXOO5MkLgwXSz7OL506Q=='</defaultValue>
+      <description></description>
+      <id>42246a5d-06ae-4160-bfb9-9a8cdc480c82</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+   <variable>
+      <defaultValue>'Female'</defaultValue>
+      <description></description>
+      <id>92817c87-d0ad-450d-9994-c15e5c9a1af4</id>
+      <masked>false</masked>
+      <name>gender</name>
+   </variable>
 </TestCaseEntity>

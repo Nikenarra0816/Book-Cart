@@ -25,5 +25,6 @@ WebUI.callTestCase(findTestCase('Blocks/Positive Test Case/Login_Page_Variabel')
 
 WebUI.callTestCase(findTestCase('Blocks/Positive Test Case/Cart_Page'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('Blocks/Positive Test Case/Checkout_Page_Variabel'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Blocks/Positive Test Case/Checkout_Page_Variabel'), [('name') : 'niken uhuy', ('address1') : 'uhuy 1'
+        , ('address2') : 'uhuy 2', ('pincode') : '21313S', ('state') : '8888'], FailureHandling.STOP_ON_FAILURE)
 
