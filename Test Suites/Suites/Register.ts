@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>Authentication</name>
+   <name>Register</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
@@ -56,19 +56,5 @@
          <value>gender</value>
          <variableId>92817c87-d0ad-450d-9994-c15e5c9a1af4</variableId>
       </variableLink>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>6b81ccbc-d407-4e83-81fd-13936c332743</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Scenarios/e2e_login_success</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>c7b4090a-85f4-4b14-8d38-f2ee170e1f39</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Blocks/Reusable Test Case/Close_Browser</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

@@ -17,14 +17,6 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('Blocks/Reusable Test Case/Open_Browser'), [:], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.callTestCase(findTestCase('Blocks/Reusable Test Case/Nagivate_URL_Login-Global'), [:], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.callTestCase(findTestCase('Blocks/Positive Test Case/Login_Page_Variabel'), [:], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.callTestCase(findTestCase('Blocks/Positive Test Case/Cart_Page'), [:], FailureHandling.STOP_ON_FAILURE)
-
 WebUI.callTestCase(findTestCase('Blocks/Positive Test Case/Checkout_Page_Variabel'), [('name') : 'niken uhuy', ('address1') : 'uhuy 1'
         , ('address2') : 'uhuy 2', ('pincode') : '21313S', ('state') : '8888'], FailureHandling.STOP_ON_FAILURE)
 
